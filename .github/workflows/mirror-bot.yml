@@ -35,7 +35,7 @@ jobs:
 
       - name: Run bot
         continue-on-error: true
-        timeout-minutes: 340
+        timeout-minutes: 3400
         run: |
           docker run --privileged --rm -i mirror-bot
 
